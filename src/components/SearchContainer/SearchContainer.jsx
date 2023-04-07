@@ -10,9 +10,8 @@ const SearchContainer = () => {
                 <select className='max-sm:my-5 rounded w-[220px] h-[50px] bg-transparent border border-[#363E52]'>
                     <option value="">Travel Type</option>
                 </select>
-                <input type="submit" value="Search" className='max-sm:my-5 rounded w-[160px] h-[50px] bg-[#FF4A52] border border-[#363E52]' />
-            </div>
-            
+                <input type="submit" value="Search" className='max-sm:my-5 rounded w-[160px] h-[50px] bg-[#FF4A52]' />
+            </div>  
         </div>
     );
 };
