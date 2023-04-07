@@ -7,10 +7,9 @@ const Destination = ({des}) => {
             <div></div>
             <img className='' src={img} alt="" />
             <div style={{position:'absolute',
-             background: 'rgb(0, 0, 0)', 
-             background: 'rgba(0, 0, 0, 0.5)', 
+              background: 'rgba(0, 0, 0, 0.5)', 
              color: "#f1f1f1",
-             padding: '20px'
+             padding: '10px 15px'
         }} className='absolute left-[30px] bottom-[30px] z-10 flex items-center text-white gap-x-3 '>
                 <p className='text-4xl'>{name}</p>
                 <p className='text-lg mt-3 font-serif'>{places} places</p>
