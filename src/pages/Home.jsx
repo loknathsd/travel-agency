@@ -6,6 +6,8 @@ import Newsletter from '../components/Newsletter/Newsletter';
 import Places from '../components/Places/Places';
 import SearchContainer from '../components/SearchContainer/SearchContainer';
 import Navbar from '../components/Shared/Navbar/Navbar';
+import Testmonial from '../components/Testmonial/Testmonial';
+import Trips from '../components/Trips/Trips';
 
 const Home = () => {
     return (
@@ -16,7 +18,9 @@ const Home = () => {
             <Destinations />
             <Newsletter />
             <Places />
-            <Features />            
+            <Features />
+            <Testmonial /> 
+            <Trips />           
         </div>
     );
 };
