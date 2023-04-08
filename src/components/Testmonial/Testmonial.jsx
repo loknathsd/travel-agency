@@ -24,7 +24,7 @@ const Testmonial = () => {
                 interval={6100}
             >
                 {
-                    data.map(slide => <div>
+                    data.map(slide => <div key={slide.name}>
                         <img src={slide.img} alt="" />
                         <div className="myCarousel">
                             <h3>{slide.name}</h3>

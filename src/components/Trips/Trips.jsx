@@ -17,7 +17,7 @@ const Trips = () => {
 
             <div className='lg:grid lg:grid-cols-3 gap-7 mx-6'>
                 {
-                    data.map(trip=> <div className='w-96 max-sm:my-3'>
+                    data.map(trip=> <div key={trip.img} className='w-96 max-sm:my-3'>
                         <img className='rounded' src={trip.img} alt="" />
                         <small className='font-serif text-gray-500'>{trip.date}</small>
                         <h1 className='text-xl font-serif'>{trip.review}</h1>

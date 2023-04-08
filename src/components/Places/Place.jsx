@@ -1,5 +1,6 @@
 import React from 'react';
 import { BiTimeFive } from 'react-icons/bi';
+import { Link } from 'react-router-dom';
 
 const Place = ({ place }) => {
     const { img, name, state, price, day } = place
@@ -14,7 +15,10 @@ const Place = ({ place }) => {
                     <h1 className='text-2xl'>{name}</h1>
                     <p className='text-gray-400 mt-2'>{state}</p>
                 </div>
-                <p className='flex gap-x-2 '> <span className='mt-1'><BiTimeFive/></span> {day} days</p>
+                <div>
+                    <p className='flex gap-x-2 mb-4'> <span className='mt-1'><BiTimeFive /></span> {day} days</p>
+                    <Link to="/booking" className=' bg-red-500 rounded px-6 py-2 text-white'>Book</Link>
+                </div>
             </div>
 
 

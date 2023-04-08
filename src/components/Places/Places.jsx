@@ -24,7 +24,7 @@ const Places = () => {
             <p className='mt-4 text-gray-500 text-lg'>Suffered alteration in some form, by injected humour or good day <br /> randomised booth anim 8-bit hella wolf moon beard words.</p>
             <div className='lg:grid lg:grid-cols-3 gap-8 mx-9 w-full mt-12'>
                 {
-                    placesData.map(place=><Place place={place} />)
+                    placesData.map(place=><Place key={place.img} place={place} />)
                 }
             </div>
 
