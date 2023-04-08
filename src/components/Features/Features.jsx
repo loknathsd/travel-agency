@@ -14,7 +14,7 @@ const Features = () => {
             <h1 className='text-4xl text-center mb-16 uppercase font-bold text-gray-500'>Facilities</h1>
             <div className='lg:grid lg:grid-cols-3 gap-6 '>
                 {
-                    data.map(dt => <div className='w-96 text-center border border-gray-400 rounded px-6 py-12 mx-3'>
+                    data.map(dt => <div className='w-96 text-center border border-gray-400 rounded px-6 py-12 mx-3 max-sm:my-3'>
                         <img className='w-20 mx-auto' src={dt.icon} alt="" />
                         <h1 className='text-2xl my-5 font-serif'>{dt.title}</h1>
                         <p className='font-serif '>{dt.des}</p>

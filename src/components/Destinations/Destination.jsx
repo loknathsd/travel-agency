@@ -3,7 +3,7 @@ import React from 'react';
 const Destination = ({des}) => {
     const {img,name,places} = des ;
     return (
-        <div className='relative transition ease-in-out delay-150  hover:scale-110  duration-300 overflow-hidden'>
+        <div className='relative transition ease-in-out delay-150  hover:scale-110  duration-300 overflow-hidden max-sm:my-3'>
             <div></div>
             <img className='' src={img} alt="" />
             <div style={{position:'absolute',

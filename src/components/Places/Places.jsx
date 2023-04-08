@@ -22,7 +22,7 @@ const Places = () => {
         <div className='container text-center font-serif my-24'>
             <h1 className='text-4xl'>Popular Places</h1>
             <p className='mt-4 text-gray-500 text-lg'>Suffered alteration in some form, by injected humour or good day <br /> randomised booth anim 8-bit hella wolf moon beard words.</p>
-            <div className='grid grid-cols-3 gap-8 mx-9 w-full mt-12'>
+            <div className='lg:grid lg:grid-cols-3 gap-8 mx-9 w-full mt-12'>
                 {
                     placesData.map(place=><Place place={place} />)
                 }

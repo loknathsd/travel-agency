@@ -22,7 +22,7 @@ const Destinations = () => {
         <div className='text-center mt-24 container mx-auto'>
             <h1 className='text-5xl'>Popular Destination</h1>
             <p className='mt-6 text-gray-600 text-lg font-serif'>Suffered alteration in some form, by injected humour or good day <br /> randomised booth anim 8-bit hella wolf moon beard words.</p>
-            <div className='container mx-8 grid grid-cols-3 gap-y-8  mt-16'>
+            <div className='container mx-8 lg:grid lg:grid-cols-3 gap-y-8  mt-16'>
                 {destinations.map(des=><Destination des={des} />)}
             </div>
         </div>
